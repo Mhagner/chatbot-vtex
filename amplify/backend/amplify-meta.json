@@ -1,0 +1,52 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-chatbotvtexaws-dev-153615-authRole",
+      "UnauthRoleArn": "arn:aws:iam::136319313117:role/amplify-chatbotvtexaws-dev-153615-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::136319313117:role/amplify-chatbotvtexaws-dev-153615-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-chatbotvtexaws-dev-153615-deployment",
+      "UnauthRoleName": "amplify-chatbotvtexaws-dev-153615-unauthRole",
+      "StackName": "amplify-chatbotvtexaws-dev-153615",
+      "StackId": "arn:aws:cloudformation:us-east-1:136319313117:stack/amplify-chatbotvtexaws-dev-153615/787a1ec0-f394-11ea-bfd9-0e55cf8eb989",
+      "AmplifyAppId": "d29qvgdu27878m"
+    }
+  },
+  "auth": {
+    "cognito8c052945": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-chatbotvtexaws-dev-153615-deployment/amplify-cfn-templates/auth/cognito8c052945-cloudformation-template.yml",
+        "logicalId": "authcognito8c052945"
+      },
+      "lastPushTimeStamp": "2020-09-10T18:48:12.868Z",
+      "output": {
+        "IdentityPoolId": "us-east-1:ca3dca67-1018-4ec4-b3b1-e984f02601ca",
+        "IdentityPoolName": "chatbotvtexaws_identitypool_c241012b__dev"
+      },
+      "lastPushDirHash": "yDanCFVTEEutcuK71wD+EntVZcg="
+    }
+  },
+  "interactions": {
+    "chatbot": {
+      "service": "Lex",
+      "providerPlugin": "awscloudformation",
+      "build": true,
+      "lastBuildTimeStamp": "2020-09-10T18:46:30.026Z",
+      "lastPackageTimeStamp": "2020-09-10T18:46:30.823Z",
+      "distZipFilename": "chatbot-344c5a304c6a42784177-build.zip",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-chatbotvtexaws-dev-153615-deployment/amplify-cfn-templates/interactions/chatbot-cloudformation-template.json",
+        "logicalId": "interactionschatbot"
+      },
+      "lastPushTimeStamp": "2020-09-10T18:48:12.868Z",
+      "output": {
+        "FunctionArn": "arn:aws:lambda:us-east-1:136319313117:function:chatbotvtexaws_cfnlambda_15c7358d-dev",
+        "Region": "us-east-1",
+        "BotName": "chatbot_vtex_aws_dev"
+      },
+      "lastPushDirHash": "wC6+l70tvatxsC5SFKRNJb3sCsk="
+    }
+  }
+}
