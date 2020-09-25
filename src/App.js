@@ -3,7 +3,10 @@ import Chatbot from './Chatbot'
 
 const App = () => {
   return (
-    <Chatbot />
+    <>
+      <h2>Chatbot doação TETO</h2>
+      <Chatbot />
+    </>
   )
 }
 
