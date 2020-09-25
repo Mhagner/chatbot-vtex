@@ -7,7 +7,6 @@ const Chatbot = () => {
     }, [])
 
     function obtenhaConfig() {
-       <script type="text/javascript">
             (function(d, m){
                 var kommunicateSettings = 
                     {"appId":"2736237af6c1a260fc3c652797883e60c","popupWidget":true,"automaticChatOpenOnNavigation":true};
@@ -16,8 +15,6 @@ const Chatbot = () => {
                 var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
                 window.kommunicate = m; m._globals = kommunicateSettings;
             })(document, window.kommunicate || {});
-            /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
-        </script>
     }
 
     return (
